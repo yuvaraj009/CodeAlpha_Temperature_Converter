@@ -1,0 +1,106 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: #0093E9;
+  background-image: url(background.jpg) ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: border-box;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.main{
+  
+  margin-top: 100px;
+  width: 100%;
+}
+
+.heading{
+  padding: 20px;
+  margin-left: 35%;
+  border: 2px solid whitesmoke;
+  padding: 20px;
+  width: 27%;
+  border-radius: 15px;
+  color: lightblue;
+}
+
+.label{
+  margin-right: 20px;
+}
+h2{
+  margin-left: 50px;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+.container{
+  margin-top: 80px;
+  display: flex;
+  
+}
+
+input{
+  padding: 8px;
+  padding-left: 3px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+button{
+  padding: 10px;
+  border-radius: 15px;
+  display: block;
+  font-weight: bold;
+  font-size: 20px;
+  
+}
+
+.btn-con{
+  display: flex;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.first-btn{
+  margin-left: 40px;
+}
+
+.fah-con{
+  margin-left: 230px;
+  background-color: whitesmoke;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 lightblue, 0 6px 20px 0 lightblue;
+}
+
+.kel-con{
+  margin-left: 230px;
+  background-color: whitesmoke;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 lightblue, 0 6px 20px 0 lightblue;
+}
+
+.cel-con{
+  margin-left: 95px;
+  background-color: whitesmoke;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 lightblue, 0 6px 20px 0 lightblue;
+}
+
+p{
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 25px;
+  text-align: center;
+}

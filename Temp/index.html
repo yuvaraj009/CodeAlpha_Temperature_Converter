@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="main">
+  <div class="heading">
+    <h1>Temperature Coverter</h1>
+  </div>
+  <div class="container">
+   
+    <div class="cel-con">
+
+      <h2>Celsius</h2>
+      <input type="number" id = "celsius" placeholder="celsius" >
+    <div class="btn-con">
+      <button onclick="celToFahren() " class="btn celsius-fah-btn ">°F</button>
+      <button onclick="celTokelvin() " class="btn celsius-kel-btn first-btn">°K</button>
+    </div>
+      <p id = "cel-fah"></p>
+      <p id= "cel-kel"></p>
+
+
+
+
+  </div>
+    <br>
+    <div class="fah-con">
+
+      <h2 class="label">Fahrenheit</h2>
+      <input type="number" id="fahrenheit" placeholder="fahrenheit">
+      <div class="btn-con">
+          <button onclick="fahToCel()" class="btn fahrenheit-btn ">°C</button>
+          <button onclick="fahToKel()" class="btn fahrenheit-btn first-btn">°K</button>
+      </div>
+      <p id = "fah-cel"></p>
+      <p id= "fah-kel"></p>
+  </div>
+
+
+
+    <br>
+    <div class = "kel-con">
+      <h2>kelvin</h2></label>
+      <input type="number" id="kelvin" placeholder="kelvin">
+      <div class="btn-con">
+          <button onclick="kelToCel()" class="btn kelvin-btn ">°C</button>
+          <button onclick="kelToFah()" class="btn kelvin-btn first-btn">°F</button>
+    </div>
+      <p id = "kel-cel"></p>
+      <p id= "kel-fah"></p>
+  </div>
+  </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
